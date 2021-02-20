@@ -6,6 +6,7 @@ I made [this tweet](https://twitter.com/luke_pighetti/status/1362875378247819264
     alt="A tweet about how much I love Provider and Firebase"
     src="docs/tweet.png"
     srcset="docs/tweet@2x.png 2x, docs/tweet@3x.png 3x"
+    width="600px"
 />
 
 ## TLDR
