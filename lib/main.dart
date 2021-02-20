@@ -34,16 +34,31 @@ class MyApp extends StatelessWidget with FirebaseServices {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: appTitle,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
+    final user = Provider.of<User>(context);
+
+    return MultiProvider(
+      providers: [
+        /// There's a better way to do this, but this gives you the idea
+        if (user != null) ...[
+          StreamProvider<FBUserPublicInfo>(
+            create: (context) => user.service.myPublicInfo(),
+          ),
+          StreamProvider<FBUserPrivateInfo>(
+            create: (context) => user.service.myPrivateInfo(),
+          ),
+        ],
+      ],
+      child: MaterialApp(
+        title: appTitle,
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+        ),
+        initialRoute: isLoggedInAtLaunch ? 'home' : 'login',
+        routes: {
+          'login': (_) => LoginScreen(),
+          'home': (_) => HomeScreen(),
+        },
       ),
-      initialRoute: isLoggedInAtLaunch ? 'home' : 'login',
-      routes: {
-        'login': (_) => LoginScreen(),
-        'home': (_) => HomeScreen(),
-      },
     );
   }
 }
