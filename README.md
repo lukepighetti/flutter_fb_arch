@@ -4,8 +4,8 @@ I made [this tweet](https://twitter.com/luke_pighetti/status/1362875378247819264
 
 <img
     alt="A tweet about how much I love Provider and Firebase"
-    src="doc/tweet.png"
-    srcset="doc/tweet@2x.png 2x, doc/tweet@3x.png 3x"
+    src="docs/tweet.png"
+    srcset="docs/tweet@2x.png 2x, docs/tweet@3x.png 3x"
 />
 
 ## TLDR
