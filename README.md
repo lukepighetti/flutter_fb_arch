@@ -1,16 +1,17 @@
 # fb_arch
 
-A new Flutter project.
+I made [this tweet](https://twitter.com/luke_pighetti/status/1362875378247819264) and people wanted an article so instead I made a sketch that is about 80% implemented.
 
-## Getting Started
+![alt text](doc/tweet.png)
 
-This project is a starting point for a Flutter application.
+## TLDR
 
-A few resources to get you started if this is your first Flutter project:
+Extend firebase services with backend-like methods that don't act on any service but itself.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Extend FirebaseApp with flows that don't require authentication.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Extend User with flows that require authentication.
+
+Find an easy way to access User and all your services. I like `Provider<User>` and `mixin FirebaseServices`.
+
+Data goes up, Firebase RTDB acts as a repository, data is dispatched out. The architecture is extremely simple and very fast to write and quite powerful.
