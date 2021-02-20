@@ -2,7 +2,10 @@
 
 I made [this tweet](https://twitter.com/luke_pighetti/status/1362875378247819264) and people wanted an article so instead I made a sketch that is about 80% implemented.
 
-<img src="doc/tweet.png" width="400">
+<img
+    src="doc/tweet.png"
+    srcset="doc/tweet@2x.png 2x, doc/tweet@3x.png 3x"
+/>
 
 ## TLDR
 
