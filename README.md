@@ -19,4 +19,4 @@ Extend User with flows that require authentication.
 
 Find an easy way to access User and all your services. I like `Provider<User>` and `mixin FirebaseServices`.
 
-Data goes up, Firebase RTDB acts as a repository, data is dispatched out. The architecture is extremely simple and very fast to write and quite powerful.
+Data goes up, Firebase RTDB acts as a repository, data is dispatched to your streams and to firebase. The architecture is extremely simple and very fast to write and quite powerful.
