@@ -2,7 +2,7 @@
 
 I made [this tweet](https://twitter.com/luke_pighetti/status/1362875378247819264) and people wanted an article so instead I made a sketch that is about 80% implemented.
 
-![alt text](doc/tweet.png?s=200)
+<img src="doc/tweet.png" width="400">
 
 ## TLDR
 
