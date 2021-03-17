@@ -5,7 +5,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 
 import 'firebase_models.dart';
-import 'firebase_auth_extensions.dart';
 import 'firebase_database_extensions.dart';
 import 'firebase_storage_extensions.dart';
 
