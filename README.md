@@ -11,7 +11,7 @@ I made [this tweet](https://twitter.com/luke_pighetti/status/1362875378247819264
 
 ## QCFlutter Talk
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kAWqZNvLrGg?start=323" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=kAWqZNvLrGg&t=315s
 
 ## TLDR
 
