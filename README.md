@@ -9,6 +9,10 @@ I made [this tweet](https://twitter.com/luke_pighetti/status/1362875378247819264
     width="600px"
 />
 
+## QCFlutter Talk
+
+https://www.youtube.com/watch?v=kAWqZNvLrGg&t=315s
+
 ## TLDR
 
 Extend firebase services with backend-like methods that don't act on any service but itself.
