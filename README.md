@@ -1,4 +1,4 @@
-# fb_arch
+# flutter_fb_arch
 
 I made [this tweet](https://twitter.com/luke_pighetti/status/1362875378247819264) and people wanted an article so instead I made a sketch that is about 80% implemented.
 
@@ -11,7 +11,7 @@ I made [this tweet](https://twitter.com/luke_pighetti/status/1362875378247819264
 
 ## QCFlutter Talk
 
-- Talk: https://www.youtube.com/watch?v=kAWqZNvLrGg&t=315s
+- Talk: https://www.youtube.com/watch?v=ZbFOqL1fHNo
 - Commit in talk: [b7b844a](https://github.com/lukepighetti/fb_arch/tree/b7b844a2251c6330e74ccb0aaaec9dcbc2fd8c01)
 - Redux sandbox repo: https://github.com/lukepighetti/redux_sandbox
 
